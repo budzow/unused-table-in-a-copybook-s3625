@@ -2,6 +2,7 @@
  PROGRAM-ID.      MAIN.                                          
  WORKING-STORAGE SECTION.                                        
      EXEC SQL
+*cobol:S3625 triggers as expected in the main program      
       DECLARE DEPT1 TABLE
         (DEPTNO    CHAR(3)           NOT NULL,
          DEPTNAME  VARCHAR(36)       NOT NULL,
